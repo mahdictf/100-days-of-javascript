@@ -20,7 +20,7 @@ let events = {
     mobe: "touchmove",
     up: "touchend",
   },
-};
+}; 
 
 let deviceType = "";
 
