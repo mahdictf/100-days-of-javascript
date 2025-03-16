@@ -33,14 +33,14 @@ body {
 }
 .login-container {
   padding: 5px;
-  max-width: 100%;
+  max-width: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .login-container h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   margin: 0 0 30px 0;
 }
 .login-container p {
@@ -62,7 +62,7 @@ form {
 }
 
 form button {
-  width: 100%;
+  width: 105%;
   height: 40px;
   background-color: var(--button-color);
   color: var(--primery-color);
@@ -92,4 +92,32 @@ a {
   margin: 0 0 0 10px;
   text-decoration: none;
   color: var(--button-color);
+}
+
+.Media-Buttons {
+  display: flex;
+  justify-content: start;
+  gap: 3px;
+}
+
+.Media-Buttons a {
+  border: var(--button-color) solid 1px;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.title p {
+  margin: 0 0 20px 0;
 }
