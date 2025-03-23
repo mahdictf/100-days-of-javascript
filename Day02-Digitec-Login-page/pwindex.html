@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digitec Login Password | mahdictf</title>
+    <link rel="stylesheet" href="pwstyle.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-line"></div>
+      <div class="logo">
+        <img src="./assets/digitec-ch-logo.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="login-container">
+          <h1>Welcome back</h1>
+          <div class="identifierUser">
+            <div class="userProfile">
+              <img src="😒" alt="" />
+              <p>Admin</p>
+            </div>
+          </div>
+
+          <form action="login.php" method="POST">
+            <div class="input-group">
+              <label for="email" style="color: gray">Password</label>
+              <input
+                type="password"
+                name="username"
+                placeholder=""
+                id="username"
+              />
+            </div>
+            <button type="submit">Sign in</button>
+            <div class="title">
+              <a href="#">Forgotten your Password</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-footer">
+        <p>
+          <a
+            href="https://www.digitec.ch/en/page/data-protection-conditions-105"
+          >
+            Legal notice
+          </a>
+          <a
+            href="https://www.digitec.ch/en/page/general-terms-and-conditions-104"
+          >
+            Privacy notice
+          </a>
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
