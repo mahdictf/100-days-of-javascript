@@ -60,6 +60,13 @@ body {
 form {
   width: 100%;
 }
+input:focus {
+  outline: none;
+  border: 1px solid var(--button-color);
+}
+input::placeholder {
+  opacity: 0;
+}
 
 form button {
   width: 105%;
