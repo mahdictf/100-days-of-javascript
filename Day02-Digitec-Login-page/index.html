@@ -26,14 +26,15 @@
             Enter your e-mail address to log in or create a Digitec Galaxus
             account.
           </p>
-          <form action="login.php" method="POST">
+          <form id="emailForm">
             <div class="input-group">
               <label for="email" style="color: gray">E-mail</label>
               <input
                 type="email"
-                name="username"
+                name="email"
                 placeholder="Please complete your e-mail address or enter your Community name."
-                id="username"
+                id="email"
+                required
               />
             </div>
             <button type="submit">Continue</button>

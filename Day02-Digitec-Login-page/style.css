@@ -6,6 +6,7 @@
   --primery-color: #ffffff;
   --hover-color: #e60021;
   --button-color: #00559c;
+  --black-clr: #080808;
 }
 
 body {
@@ -111,7 +112,7 @@ a {
 }
 
 .Media-Buttons a {
-  border: var(--button-color) solid 1px;
+  border: var(--black-clr) solid 1px;
   padding: 10px;
   border-radius: 3px;
   display: flex;

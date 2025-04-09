@@ -25,19 +25,29 @@
           <div class="identifierUser">
             <div class="userProfile">
               <img src="😒" alt="" />
-              <p>Admin</p>
+              <p id="displayEmail">Loading email...</p>
             </div>
           </div>
 
-          <form action="login.php" method="POST">
+          <form id="passwordForm">
             <div class="input-group">
               <label for="password" style="color: gray">Password</label>
-              <input
-                type="password"
-                name="username"
-                placeholder="Your login details are incorrect. Please try again."
-                id="username"
-              />
+              <div class="password-input-container">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter your password"
+                  id="password"
+                  required
+                />
+                <button
+                  type="button"
+                  class="toggle-password"
+                  onclick="togglePasswordVisibility()"
+                >
+                  <i class="bx bx-hide"></i>
+                </button>
+              </div>
             </div>
             <button type="submit">Sign in</button>
             <div class="title">
