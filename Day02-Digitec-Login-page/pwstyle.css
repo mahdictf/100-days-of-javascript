@@ -79,7 +79,7 @@ form button {
   font-size: 1rem;
   cursor: pointer;
 }
-button:hover {
+.button-sign-in:hover {
   background-color: var(--hover-color);
 }
 
@@ -133,7 +133,7 @@ a {
 .toggle-password {
   position: absolute;
   right: 12px;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   background: transparent;
   border: none;
